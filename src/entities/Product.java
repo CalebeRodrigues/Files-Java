@@ -35,6 +35,6 @@ public class Product {
 	
 	@Override
 	public String toString() {
-		return name+ "," + (price*quantity);
+		return name+ ", " + String.format("%.2f",(price*quantity));
 	} 
 }
